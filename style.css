@@ -1,20 +1,36 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
+/* ==========================================
+   CONFIGURACIÓN GENERAL
+   ========================================== */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    margin: 40px;              /* Margen alrededor de la página */
+}
 
-    <h1>Este es el título principal (H1)</h1>
+/* ==========================================
+   ELEMENTOS ESPECÍFICOS PEDIDOS
+   ========================================== */
 
-    <h2>Este es un subtítulo destacado (H2)</h2>
+/* h1 de 36px, color azul con tipografía Arial */
+h1 {
+    font-size: 36px !important;
+    color: #0000FF !important; /* Azul puro */
+    font-family: "Arial", sans-serif !important;
+    margin-bottom: 20px;
+}
 
-    <p>Este es el texto del párrafo. Como puedes ver, tiene exactamente el tamaño y la fuente requeridos en las especificaciones.</p>
-    
-    <p>Puedes agregar tantos párrafos o encabezados como necesites, y todos adoptarán el mismo diseño gracias al archivo CSS adjunto.</p>
+/* h2 de 28px, color negro con tipografía Arial */
+h2 {
+    font-size: 28px !important;
+    color: #000000 !important; /* Negro puro */
+    font-family: "Arial", sans-serif !important;
+    margin-bottom: 15px;
+}
 
-</body>
-</html>
+/* Texto de párrafo de 14px, color negro con tipografía Arial */
+p {
+    font-size: 14px !important;
+    color: #000000 !important; /* Negro puro */
+    font-family: "Arial", sans-serif !important;
+    line-height: 1.5;          /* Espaciado de línea cómodo para lectura */
+    margin-bottom: 12px;
+}
