@@ -1,20 +1,76 @@
-/* Configuración para el elemento h1 */
+/* ==========================================
+   CONFIGURACIÓN GENERAL
+   ========================================== */
+body {
+    font-family: "Arial", sans-serif;
+    color: #000000;         /* Negro por defecto para todo el texto */
+    line-height: 1.6;       /* Mejora la legibilidad del párrafo */
+    max-width: 800px;       /* Limita el ancho para que no se estire demasiado en pantallas grandes */
+    margin: 40px auto;      /* Centra todo el contenido en la pantalla */
+    padding: 0 20px;        /* Añade un colchón a los lados en pantallas de celulares */
+    background-color: #ffffff; 
+}
+
+/* ==========================================
+   ELEMENTOS PEDIDOS
+   ========================================== */
+
+/* h1 de 36px, color azul y tipografía Arial */
 h1 {
     font-size: 36px;
-    color: #0000FF; /* Azul */
+    color: #0000FF;         /* Azul puro */
     font-family: "Arial", sans-serif;
+    margin-bottom: 20px;
 }
 
-/* Configuración para el elemento h2 */
+/* h2 de 28px, color negro y tipografía Arial */
 h2 {
     font-size: 28px;
-    color: #000000; /* Negro */
+    color: #000000;         /* Negro */
     font-family: "Arial", sans-serif;
+    margin-top: 30px;
 }
 
-/* Configuración para los textos de párrafo */
+/* Texto de párrafo de 14px, color negro y tipografía Arial */
 p {
     font-size: 14px;
-    color: #000000; /* Negro */
+    color: #000000;         /* Negro */
     font-family: "Arial", sans-serif;
+    margin-bottom: 15px;
+}
+
+/* ==========================================
+   ESTILOS COMPLEMENTARIOS (Opcional, para mejorar el diseño)
+   ========================================== */
+
+/* Título pequeño del video */
+h3 {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Líneas divisorias horizontales (<hr>) */
+hr {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 30px 0;
+}
+
+/* Enlaces (Links) */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Se subraya al pasar el mouse por encima */
+}
+
+/* Optimización para el iframe del video de YouTube */
+iframe {
+    max-width: 100%;       /* Hace que el video sea responsivo y no se corte en celulares */
+    border-radius: 8px;     /* Redondea sutilmente las esquinas del video */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Le da una pequeña sombra elegante */
 }
