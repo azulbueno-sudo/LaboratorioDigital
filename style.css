@@ -1,0 +1,26 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: "Halyard Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #000000; /* Negro por defecto para todo el texto */
+}
+
+/* Configuración del elemento h1 */
+h1 {
+    font-size: 36px;
+    color: #0000FF; /* Azul (puedes usar un tono específico como #007BFF si prefieres) */
+    font-family: "Halyard Display", sans-serif;
+}
+
+/* Configuración del elemento h2 */
+h2 {
+    font-size: 28px;
+    color: #000000; /* Negro */
+    font-family: "Halyard Display", sans-serif;
+}
+
+/* Configuración de los textos de párrafo */
+p {
+    font-size: 14px;
+    color: #000000; /* Negro */
+    font-family: "Halyard Display", sans-serif;
+}
